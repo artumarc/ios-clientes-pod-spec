@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT'}
   s.author           = { 'Grupo Profuturo' => 'ulises.perez@profuturo.com.mx' }
   #s.source           = { :git => 'https://github.com/grupo-profuturo/ios-facephi-framework-pod.git', :tag => s.version.to_s }
-  s.source           = { :git => 'https://github.com/artumarc/ios-facephi-framework-pod', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://github.com/artumarc/ios-facephi-framework-pod', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/artumarc/ios-facephi-framework-pod' }
   #s.source           = { :path => '.'}
 
   s.ios.deployment_target = '13.0'

@@ -33,6 +33,7 @@ spec.platform = :ios, '13.0'
 
   spec.author             = { "Montse Romero" => "" }
 
-spec.source       = { :http => 'http://nexus-admin.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/ZipZap/2.1.8/ZipZap-2.1.8.zip' }
+#spec.source       = { :http => 'http://nexus-admin.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/ZipZap/2.1.8/ZipZap-2.1.8.zip' }
+spec.source       = { :http => 'http://Pods:pods@nexus-admin.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/ZipZap/2.1.8/ZipZap-2.1.8.zip' }
 spec.vendored_frameworks = 'ZipZap.xcframework'
 end

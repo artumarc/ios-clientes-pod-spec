@@ -34,6 +34,7 @@ spec.platform = :ios, '13.2'
 
   spec.author             = { "Montse Romero" => "" }
 
-spec.source       = { :http => 'http://Pods:pods@nexus-devsecopsms.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/FPhiSelphIDWidgetiOS/2.1.7/FPhiSelphIDWidgetiOS-2.1.7.zip' }
+#spec.source       = { :http => 'http://nexus-devsecopsms.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/FPhiSelphIDWidgetiOS/2.1.7/FPhiSelphIDWidgetiOS-2.1.7.zip' }
+spec.source       = { :http => 'http://Pods:pods@nexus-admin.apps.paasprofuturo-d.r6b1.p1.openshiftapps.com/repository/Pods/com/profuturo/facephi/FPhiSelphIDWidgetiOS/2.1.7/FPhiSelphIDWidgetiOS-2.1.7.zip' }
 spec.vendored_frameworks = 'FPhiSelphIDWidgetiOS.xcframework'
 end

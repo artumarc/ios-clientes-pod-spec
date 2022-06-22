@@ -29,7 +29,7 @@ Pod para la distribución de framework procesar FPhiSelphIDWidgetiOS
   spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-spec.platform = :ios, '13.0'
+spec.platform = :ios, '13.2'
 
   spec.author             = { "Montse Romero" => "" }
 

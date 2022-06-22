@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/artumarc/ios-facephi-framework-pod' }
   #s.source           = { :path => '.'}
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '13.2'
   s.swift_version = '4.2'
   s.source_files = 'FWFaceAuth/Classes/**/*.swift'
   s.vendored_frameworks =  'FWFaceAuth/Frameworks/FPBExtractoriOS.framework', 'FWFaceAuth/Frameworks/FPhiWidgetCore.framework', 'FWFaceAuth/Frameworks/FPhiWidgetSelphi.framework'
